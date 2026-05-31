@@ -1,0 +1,6 @@
+{
+  "name": "MP4 to MP3 Converter",
+  "description": "Trạm chuyển đổi định dạng MP4 sang MP3 cực kỳ tối giản, dễ thương và thuận tiện với phong cách dễ thương.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

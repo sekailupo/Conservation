@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&family=Quicksand:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Quicksand", "Comfortaa", "Inter", "Helvetica Neue", Arial, sans-serif;
+  --color-brand-bg: #FFF9F2;
+  --color-brand-card: #FFFFFF;
+  --color-brand-primary: #5C4B43;
+  --color-brand-secondary: #A08E85;
+  --color-brand-accent: #FFB7B2;
+  --color-brand-accent-hover: #FFA49E;
+  --color-brand-success: #B2E2F2;
+  --color-brand-border: #F0E6D2;
+}
+
+/* Let's define some smooth custom animations */
+@keyframes cute-float {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-8px) rotate(2deg); }
+}
+
+@keyframes paw-press {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(0.93); }
+}
+
+.animate-cute-float {
+  animation: cute-float 4s ease-in-out infinite;
+}
+
+.animate-paw-press {
+  animation: paw-press 2s ease-in-out infinite;
+}
+
+/* Warm-tinted elegant custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FCF8F2;
+}
+::-webkit-scrollbar-thumb {
+  background: #E8D5C4;
+  border-radius: 99px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D8C3B1;
+}
